@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xbenes2.pexeso.MainActivity">
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/imagesGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="0dp"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+
+        android:numColumns="auto_fit"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="1dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp" />
+
+</android.support.constraint.ConstraintLayout>
